@@ -1,0 +1,31 @@
+
+@keyframes animaTexto {
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-x: 0%;
+    }
+    
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+@keyframes saltar {
+    0% {
+        transform: scale(0.8);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+}

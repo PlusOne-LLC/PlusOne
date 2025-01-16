@@ -1,0 +1,59 @@
+
+-----------------------Cor Cinza-----------------------
+
+/* CSS */
+.color-1 {
+  color: #b0b0b0;
+}
+.color-2 {
+  color: #a1a1a1;
+}
+.color-3 {
+  color: #8c8c8c;
+}
+.color-4 {
+  color: #7a7a7a;
+}
+.color-5 {
+  color: #616161;
+}
+
+/* CSS Variables */
+:root {
+  --color-1: #b0b0b0;
+  --color-2: #a1a1a1;
+  --color-3: #8c8c8c;
+  --color-4: #7a7a7a;
+  --color-5: #616161;
+}
+
+
+
+-----------------------Cor Azul-----------------------
+
+
+/* CSS */
+.color-1 {
+  color: #1f8fff;
+}
+.color-2 {
+  color: #4db2ff;
+}
+.color-3 {
+  color: #85d6ff;
+}
+.color-4 {
+  color: #a3e7ff;
+}
+.color-5 {
+  color: #d2f2f4;
+}
+
+/* CSS Variables */
+:root {
+  --color-1: #1f8fff;
+  --color-2: #4db2ff;
+  --color-3: #85d6ff;
+  --color-4: #a3e7ff;
+  --color-5: #d2f2f4;
+}
