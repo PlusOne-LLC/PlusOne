@@ -1,2 +1,2 @@
 # PlusOne
-Este é o nosso site official
+Este é o nosso site oficial
