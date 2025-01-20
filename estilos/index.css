@@ -24,7 +24,7 @@
     --color-8: #85d6ff;
     --color-9: #a3e7ff;
    --color-10: #d2f2f4;
-     
+   --color-11: #f1f1f1;   
   }
 body{
     background-color: #000;
@@ -171,6 +171,7 @@ main section#top{
     align-items: center;
     background-image: url("../imgs/several/img7.jpg");
     background-size: cover;
+    margin: 0;
 }
 main section#top div.texto {
     width: 70%;
@@ -190,13 +191,13 @@ main section#top div.texto h2 {
 }
 
 main section#top div.texto p {
-    font-size: 20px;
+    font-size: 17px;
     color: var(--color-10);
     margin-bottom: 20px;
 }
 main section#top div.texto a{
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 20px;
     padding: 10px 30px;
     font-weight: 700;
@@ -204,10 +205,6 @@ main section#top div.texto a{
     background-image: linear-gradient(to left, var(--color-6), var(--color-7));
     background-size: 500% 100%;
     animation: degrade-animado 1s infinite alternate;
-    
-     /*Para aplicar o degrade no texto*/
-    /*-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
 }
 
 main section#top div.texto a:hover {
@@ -256,6 +253,7 @@ main section#sobreNos{
     padding: 10px;
     color: white;
     background-color: #1413137e;
+    padding-top: 20px;
 }
 main section#sobreNos div.titulo{
     display: flex;
@@ -446,7 +444,7 @@ main section#servicos div.container div.card a{
 main section#servicos div.container div.card:hover {
   background-color: rgb(250, 250, 250);
   transition: 0.5s ease-in-out;
-  border: none;
+  border-color: transparent;
 }
 main section#servicos div.container div.card:hover p{
   color: #000;
@@ -477,8 +475,8 @@ main section#servicos div.container div.card a:hover{
         opacity: 0; 
         transform: scale(.9); 
         transition: opacity 0.6s ease, transform 0.6s ease;
-        background-color: #fff;
-        box-shadow: 0 0 13px var(--color-8); 
+        background-color: var(--color-11);
+        box-shadow: 0 0 6px #ccc; 
         border-radius: 20px;
         display: flex;
         flex-direction: column;
